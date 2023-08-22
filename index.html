@@ -6,22 +6,101 @@
     <title>Document</title>
     <style>
         .p {
+            border-radius: 8px;
             background-color: blueviolet;
+            color: white;
+            padding: 10px;
+        }
+
+        .p2{
+            border-radius: 8px;
+            background-color: cadetblue;
+            padding: 10px;
+        }
+
+        .p3{
+            border-radius: 8px;
+            background-color: aqua;
+            padding: 10px;
+        }
+
+        .p4{
+            border-radius: 8px;
+            background-color: cornflowerblue;
+            color: white;
+            padding: 10px;
+        }
+
+        .p5{
+            border-radius: 8px;
+            background-color: blue;
+            color: white;
+            padding: 10px;
         }
         
         @media (max-width: 600px) {
+            body{
+                background-color: dimgray;
+            }
+            .title{
+                text-align: center;
+                font-family: sans-serif;
+                color: white;
+
+            }
             .p {
+                font-size: small;
+                border-radius: 8px;
+                font-family: sans-serif;
                 background-color: yellow;
-            } 
+                color: black;
+                padding: 10px;
+            }   
+
+            .p2{
+                font-size: small;
+                border-radius: 8px;
+                font-family: sans-serif;
+            background-color:bisque;
+            padding: 10px;
+        }
+
+        .p3{
+            font-size: small;
+            border-radius: 8px;
+            font-family: sans-serif;
+            background-color:blanchedalmond;
+            padding: 10px;
+        }
+
+        .p4{
+            font-size: small;
+            border-radius: 8px;
+            font-family: sans-serif;
+            background-color:burlywood;
+            color: black;
+            padding: 10px;
+        }
+
+        .p5{
+            font-size: small;
+            border-radius: 8px;
+            font-family: sans-serif;
+            background-color:coral;
+            color: black;
+            padding: 10px;
+        }
         }
     </style>
 </head>
 <body>
-    <h1>Hellow FSW 2</h1>
+    <h1 class="title">Hellow FSW 2</h1>
+    <div style="display: flex; flex-flow: column; gap: 10px;">
     <div class="h1 p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic corporis excepturi neque? Dolorum saepe cum magni possimus sed dolore asperiores quidem odio quisquam iusto nemo voluptatum, ullam hic, placeat nisi.</div>
     <div class="h1 p2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic corporis excepturi neque? Dolorum saepe cum magni possimus sed dolore asperiores quidem odio quisquam iusto nemo voluptatum, ullam hic, placeat nisi.</div>
     <div class="h1 p3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic corporis excepturi neque? Dolorum saepe cum magni possimus sed dolore asperiores quidem odio quisquam iusto nemo voluptatum, ullam hic, placeat nisi.</div>
     <div class="h1 p4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic corporis excepturi neque? Dolorum saepe cum magni possimus sed dolore asperiores quidem odio quisquam iusto nemo voluptatum, ullam hic, placeat nisi.</div>
     <div class="h1 p5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic corporis excepturi neque? Dolorum saepe cum magni possimus sed dolore asperiores quidem odio quisquam iusto nemo voluptatum, ullam hic, placeat nisi.</div>
+        </div>
 </body>
 </html>
